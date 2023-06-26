@@ -1,10 +1,28 @@
 :root {
   --primary-font: "Roboto", sans-serif;
   --logo-color: #4d5ae5;
+  --logo-font: "Raleway", sans-serif;
+  --logo-font-weight: 800;
+  --logo-font-size: 18px;
+  --logo-line-height: 1.17;
+  --letter-spacing: 0.03em;
+  --text-transform: uppercase;
 }
 
 body {
   font-family: var(--primary-font);
   color: #434455;
   background-color: #ffffff;
+}
+.logo {
+  font-family: var(--logo-font);
+  font-weight: var(--logo-font-weight);
+  font-size: var(--logo-font-size);
+  line-height: var(--logo-line-height);
+  letter-spacing: var(--letter-spacing);
+  text-transform: var(--text-transform);
+  color: #4d5ae5;
+}
+link {
+  text-decoration: none;
 }
