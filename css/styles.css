@@ -1,0 +1,10 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --logo-color: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
