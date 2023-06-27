@@ -15,7 +15,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-logo {
+barnd-logo {
   font-family: var(--logo-font);
   font-weight: var(--logo-font-weight);
   font-size: var(--logo-font-size);
@@ -26,5 +26,10 @@ logo {
 }
 link {
   text-decoration: none;
+}
+span {
   color: var(--span-color);
+}
+.list {
+  text-decoration: none;
 }
