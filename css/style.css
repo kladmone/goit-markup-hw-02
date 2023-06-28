@@ -165,18 +165,12 @@ span {
   background-color: var(--cloud-color);
   cursor: pointer;
 }
-.buttons:hover {
-  background-color: var(--true-white-color);
-}
+.buttons:hover,
 .buttons:focus {
-  background-color: var(--true-white-color);
-}
-.buttons:hover {
+  color: var(--true-white-color);
   background-color: var(--ocean);
 }
-.buttons:focus {
-  background-color: var(--ocean);
-}
+
 .advantages {
   font-weight: 500;
   font-size: 20px;
