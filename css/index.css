@@ -40,6 +40,7 @@ span {
 
 .list {
   text-decoration: none;
+  list-style: none;
 }
 
 .nav-list-content {
@@ -112,4 +113,19 @@ span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+/* Third-Section */
+.achievements-people {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+/* Fourth-Section */
+.who-we-are {
+  background-color: #f4f4fd;
+}
+.cards {
+  background-color: var(--true-white-color);
 }
