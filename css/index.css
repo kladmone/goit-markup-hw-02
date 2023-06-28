@@ -16,12 +16,12 @@ body {
   background-color: #ffffff;
 }
 barnd-logo {
-  font-family: var(--logo-font);
-  font-weight: var(--logo-font-weight);
-  font-size: var(--logo-font-size);
-  line-height: var(--logo-line-height);
-  letter-spacing: var(--letter-spacing);
-  text-transform: var(--text-transform);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 .link {
