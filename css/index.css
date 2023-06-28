@@ -48,14 +48,14 @@ span {
 .benefits {
   background-color: var(--background-color);
 }
-.benefts-title {
+.benefits-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.order {
+.order-service {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -64,9 +64,10 @@ span {
   letter-spacing: 0.04em;
   color: var(--true-white-color);
 }
-.order :hover :focus {
+.order-service :hover,
+.order-service :focus {
   background-color: #404bbf;
 }
-.order {
+.order-service {
   cursor: pointer;
 }
