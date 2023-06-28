@@ -9,7 +9,7 @@
   --text-transform: uppercase;
   --span-color: #2e2f42;
   --logo-color: #4d5ae5;
-  --background-color: #2e2f42;
+  --navy-blue: #2e2f42;
   --true-white-color: #ffffff;
 }
 
@@ -45,10 +45,10 @@ span {
   font-weight: 500;
 }
 /* First-Secion */
-.benefits {
-  background-color: var(--background-color);
+.hero {
+  background-color: var(--navy-blue);
 }
-.benefits-title {
+.hero-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -64,10 +64,25 @@ span {
   letter-spacing: 0.04em;
   color: var(--true-white-color);
 }
-.order-service :hover,
+.order-service :hover {
+  background-color: #404bbf;
+}
 .order-service :focus {
   background-color: #404bbf;
 }
 .order-service {
   cursor: pointer;
+}
+/* Second-Section */
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
