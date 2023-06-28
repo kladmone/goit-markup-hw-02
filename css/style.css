@@ -24,12 +24,12 @@
 }
 /* Header */
 .logo {
-  font-family: var(--logo-font);
-  font-weight: var(--logo-font-weight);
-  font-size: var(--logo-font-size);
-  line-height: var(--logo-line-height);
-  letter-spacing: var(--letter-spacing);
-  text-transform: var(--logo-text-transform);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--logo-color);
 }
 
