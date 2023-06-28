@@ -154,3 +154,39 @@ span {
 .portfolio-span {
   color: var(--navy-blue);
 }
+/* Main */
+.buttons {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background-color: var(--cloud-color);
+  cursor: pointer;
+}
+.buttons:hover {
+  background-color: var(--true-white-color);
+}
+.buttons:focus {
+  background-color: var(--true-white-color);
+}
+.buttons:hover {
+  background-color: var(--ocean);
+}
+.buttons:focus {
+  background-color: var(--ocean);
+}
+.advantages {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
