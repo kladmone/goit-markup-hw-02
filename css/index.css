@@ -147,10 +147,19 @@ span {
 }
 /* Portfolio-Page */
 .portfolio-body {
-  font-family: var(--primary-font);
+  font-family: "Roboto", sans-serif;
   color: var(--slate-color);
 }
 /* Header */
 .portfolio-span {
   color: var(--navy-blue);
+}
+.logo-web {
+  font-family: var(--logo-font);
+  font-weight: var(--logo-font-weight);
+  font-size: var(--logo-font-size);
+  line-height: var(--logo-line-height);
+  letter-spacing: var(--letter-spacing);
+  text-transform: var(--text-transform);
+  color: var(--logo-color);
 }
