@@ -9,6 +9,7 @@
   --text-transform: uppercase;
   --span-color: #2e2f42;
   --logo-color: #4d5ae5;
+  --background-color: #2e2f42;
 }
 
 .body {
@@ -16,7 +17,8 @@
   color: #434455;
   background-color: #ffffff;
 }
-.barnd-logo {
+/* Header */
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -25,15 +27,30 @@
   text-transform: uppercase;
   color: var(--logo-color);
 }
+
 .link {
   text-decoration: none;
 }
-.span {
+
+span {
   color: var(--span-color);
 }
+
 .list {
   text-decoration: none;
 }
+
 .list-studio {
   font-weight: 500;
+}
+/* Header */
+.benefits {
+  color: var(--background-color);
+}
+.benefits .benefts-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
