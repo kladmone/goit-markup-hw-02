@@ -49,10 +49,10 @@ span {
   color: var(--navy-blue);
 }
 .nav-list-content:hover {
-  background-color: var(--ocean);
+  color: var(--ocean);
 }
 .nav-list-content:focus {
-  border-color: var(--ocean);
+  color: var(--ocean);
 }
 
 .address-info {
@@ -65,11 +65,11 @@ span {
   color: var(--slate-color);
 }
 .mail-tel:hover {
-  border-color: var(--ocean);
+  color: var(--ocean);
 }
 
 .mail-tel:focus {
-  border-color: var(--ocean);
+  color: var(--ocean);
 }
 /* First-Secion */
 .hero {
@@ -91,10 +91,10 @@ span {
   letter-spacing: 0.04em;
   color: var(--true-white-color);
 }
-.order-service :hover {
+.order-service:hover {
   background-color: #404bbf;
 }
-.order-service :focus {
+.order-service:focus {
   background-color: #404bbf;
 }
 .order-service {
