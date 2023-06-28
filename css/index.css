@@ -24,7 +24,7 @@ barnd-logo {
   text-transform: var(--text-transform);
   color: #4d5ae5;
 }
-link {
+.link {
   text-decoration: none;
 }
 span {
