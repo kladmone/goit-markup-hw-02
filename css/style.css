@@ -7,7 +7,7 @@
   --logo-font-size: 18px;
   --logo-line-height: 1.17;
   --letter-spacing: 0.03em;
-  --text-transform: uppercase;
+  --logo-text-transform: uppercase;
   --slate-color: #434455;
   --logo-color: #4d5ae5;
   --navy-blue: #2e2f42;
@@ -29,7 +29,7 @@
   font-size: var(--logo-font-size);
   line-height: var(--logo-line-height);
   letter-spacing: var(--letter-spacing);
-  text-transform: var(--text-transform);
+  text-transform: var(--logo-text-transform);
   color: var(--logo-color);
 }
 
@@ -153,13 +153,4 @@ span {
 /* Header */
 .portfolio-span {
   color: var(--navy-blue);
-}
-.logo-web {
-  font-family: var(--logo-font);
-  font-weight: var(--logo-font-weight);
-  font-size: var(--logo-font-size);
-  line-height: var(--logo-line-height);
-  letter-spacing: var(--letter-spacing);
-  text-transform: var(--text-transform);
-  color: var(--logo-color);
 }
