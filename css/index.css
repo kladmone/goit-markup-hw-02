@@ -42,33 +42,33 @@ span {
   text-decoration: none;
 }
 
-.list-studio {
+.nav-list-content {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-.list-studio :hover {
+.nav-list-content:hover {
   background-color: var(--ocean);
 }
-.list-studio :focus {
+.nav-list-content:focus {
   border-color: var(--ocean);
 }
 
 .address-info {
-  font-family: normal;
+  font-style: normal;
 }
 
-.mail {
+.mail-tel {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
 }
-.mail :hover {
+.mail-tel:hover {
   border-color: var(--ocean);
 }
 
-.mail :focus {
+.mail-tel:focus {
   border-color: var(--ocean);
 }
 /* First-Secion */
