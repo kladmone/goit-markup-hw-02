@@ -10,6 +10,7 @@
   --span-color: #2e2f42;
   --logo-color: #4d5ae5;
   --background-color: #2e2f42;
+  --true-white-color: #ffffff;
 }
 
 .body {
@@ -43,14 +44,29 @@ span {
 .list-studio {
   font-weight: 500;
 }
-/* Header */
+/* First-Secion */
 .benefits {
-  color: var(--background-color);
+  background-color: var(--background-color);
 }
-.benefits .benefts-title {
+.benefts-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.order {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--true-white-color);
+}
+.order :hover :focus {
+  background-color: #404bbf;
+}
+.order {
+  cursor: pointer;
 }
