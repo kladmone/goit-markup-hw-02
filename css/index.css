@@ -1,3 +1,4 @@
+/* Main-Page */
 :root {
   --primary-font: "Roboto", sans-serif;
   --logo-color: #4d5ae5;
@@ -17,8 +18,8 @@
 
 .body {
   font-family: var(--primary-font);
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--slate-color);
+  background-color: var(--true-white-color);
 }
 /* Header */
 .logo {
