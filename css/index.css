@@ -8,6 +8,7 @@
   --letter-spacing: 0.03em;
   --text-transform: uppercase;
   --span-color: #2e2f42;
+  --logo-color: #4d5ae5;
 }
 
 .body {
@@ -22,7 +23,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 .link {
   text-decoration: none;
@@ -32,4 +33,7 @@
 }
 .list {
   text-decoration: none;
+}
+.list-studio {
+  font-weight: 500;
 }
