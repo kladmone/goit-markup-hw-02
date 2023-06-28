@@ -10,12 +10,12 @@
   --span-color: #2e2f42;
 }
 
-body {
+.body {
   font-family: var(--primary-font);
   color: #434455;
   background-color: #ffffff;
 }
-barnd-logo {
+.barnd-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -27,7 +27,7 @@ barnd-logo {
 .link {
   text-decoration: none;
 }
-span {
+.span {
   color: var(--span-color);
 }
 .list {
