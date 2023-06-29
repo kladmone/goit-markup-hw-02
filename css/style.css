@@ -17,7 +17,7 @@
   --text-decoration: none;
 }
 
-.body {
+body {
   font-family: var(--primary-font);
   color: var(--slate-color);
   background-color: var(--true-white-color);
@@ -37,7 +37,7 @@
   text-decoration: var(--text-decoration);
 }
 
-span {
+.header-span {
   color: var(--navy-blue);
 }
 
@@ -94,15 +94,11 @@ span {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--true-white-color);
+  cursor: pointer;
 }
-.order-service:hover {
-  background-color: #404bbf;
-}
+.order-service:hover,
 .order-service:focus {
   background-color: #404bbf;
-}
-.order-service {
-  cursor: pointer;
 }
 /* Second-Section */
 .benefits-title {
@@ -146,10 +142,7 @@ span {
   letter-spacing: 0.02em;
 }
 /* Portfolio-Page */
-.portfolio-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--slate-color);
-}
+
 /* Header */
 .portfolio-span {
   color: var(--navy-blue);
